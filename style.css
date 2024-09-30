@@ -1,0 +1,24 @@
+:root{
+    --m-color:red;
+}
+body{
+    margin: 0;
+   
+}
+#box{
+    border: 0px solid black;
+    background-color: var(--m-color);
+    width: 100vw;
+    font-size: 1.3em;
+    height: calc(100vh - 250px);
+
+}
+img{
+    float: left;
+    width: 500px;
+    height: 500px;
+    clip-path:polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    shape-margin: 20px;
+    filter: brightness(120%) saturate(200%) contrast(100%) none;
+}
